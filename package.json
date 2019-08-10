@@ -5,7 +5,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "deploy": "next build && sls deploy"
   },
   "dependencies": {
     "axios": "^0.19.0",
@@ -23,7 +24,7 @@
     "serverless-apigw-binary": "^0.4.4",
     "serverless-domain-manager": "^3.2.6",
     "serverless-http": "^2.0.2",
-    "serverless-offline": "^5.9.0",
+    "serverless-offline": "^5.10.1",
     "typescript": "3.5.2"
   },
   "license": "ISC"
