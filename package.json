@@ -6,7 +6,8 @@
     "build": "next build",
     "start": "next start",
     "type-check": "tsc",
-    "deploy": "next build && sls deploy"
+    "deploy": "next build && sls deploy",
+    "offline": "sls offline start --disableCookieValidation"
   },
   "dependencies": {
     "axios": "^0.19.0",

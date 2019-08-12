@@ -24,6 +24,8 @@ plugins:
 
 custom:
   secrets: ${file(ssr-demo.env)}
+  serverless-offline:
+    port: 4000
   apigwBinary:
     types:
       - '*/*'
